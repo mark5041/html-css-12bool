@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+[class *="col"] {
+    height: 3em;
+    line-height: 3em;
+    text-align: center;
+    border: 0.5px solid white;
+}
+
+
+.row > div {
+    background-color: blue;
+    color: white;
+}
+
+.row > div > .row > div {
+    background-color: green;
+    color: white;
+    border: 0.5px solid blue;
+}
